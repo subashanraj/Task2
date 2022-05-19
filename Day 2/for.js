@@ -5,7 +5,7 @@ var json = `[{
 }]`
 let user = JSON.parse(json);
 
-console.log(Object.values(user))
+//console.log(Object.values(user))
     //for loop
 for (var i = 0; i < user.length; i++) {
     console.log(user[i]);
