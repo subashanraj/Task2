@@ -1,0 +1,421 @@
+1 Find the culprit //fix.html
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        alert('I’ m JavaScript!'); //Instead of double quote for a string use single quotes when you have to use quotes in string
+    </script>
+    Whats the error in this ?
+</body>
+
+</html>
+
+<!-- 2  Find the culprit and invoke the alert
+
+fix.html -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        alert('I’m invoked'); // use single quotes for string
+    </script>
+</body>
+
+</html>
+
+
+
+<!-- 3  Explain the below how it works -->
+
+explain.html
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        alert('I"m JavaScript!'); //alerts I'm javascript 
+        alert('Hello') // alerts hello 
+        alert(`Wor // alerts wor in one line and id on another line 
+        ld`)
+        alert(3 + //alerts 6
+            1 +
+            2); // this is multiple line code and its working
+    </script>
+</body>
+
+</html>
+
+<!-- 4 Fix the below to alert Guvi geek -->
+
+fix.html
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let fname = 10.5;
+        fname = "Guvi";
+        lname = "geek";
+        let name = fname + " " + lname
+        alert(name)
+    </script>
+
+</body>
+
+</html>
+
+<!-- 5 Fix the below to alert hello Guvi geek  -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let fname = 10.5;
+        fname = "Guvi";
+        lname = "geek";
+        let name = fname + " " + lname
+        alert('hello' + " " + name)
+    </script>
+
+</body>
+
+</html>
+
+6 Fix the below to alert sum of two numbers
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let a = +prompt("First number?");
+        let b = +prompt("Second number?");
+        alert(a + b);
+    </script>
+</body>
+
+</html>
+
+7 Explain Why the Code is blasted and how to diffuse it and get “Diffused”.
+
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        var a = "2" > "12";
+        //Don't touch below this
+        if (a) {
+            console.log("Code is Blasted")
+        } else {
+            console.log("Diffused")
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- it considers "2" and "12" as string so it takes ASCII value and compares it so a will become boolean 
+and return true if change it to number or change "2" "12" it will return false and print diffiused. -->
+
+<!-- 8 How to get the success in console. -->
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let a = prompt("Enter a number?");
+        //Don't modify any code below this
+        if (a) {
+            console.log('OMG it works for any number inc 0');
+        } else {
+            console.log("Success");
+        }
+    </script>
+</body>
+
+</html>
+<!-- 
+a expects some number if we enter a value it becomes true and print if if we do not 
+enter anything its null and return false and print else -->
+
+<!-- 9  How to get the correct score in console. -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let value = +prompt('How many runs you scored in this ball');
+
+        if (value === 4) {
+            console.log("You hit a Four");
+        } else if (value === 6) {
+            console.log("You hit a Six");
+        } else {
+            console.log("you scored" + " " + value)
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 10  Fix the code to welcome the Employee -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let login = 'Employee';
+        let msge = 'greetings'
+
+        if (login == 'Employee')
+            console.log(msge);
+    </script>
+</body>
+
+</html>
+
+<!-- 11 Fix the code to welcome the boss -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        var message;
+        if (message == null || message == 2 || message === undefined) {
+            message = "welcome boss";
+        } else {
+            message = "Go away";
+        }
+        console.log(message);
+    </script>
+</body>
+
+</html>
+
+
+<!-- 12  Fix the code to welcome the boss -->
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let msg
+        let lock;
+        //Dont change any code below this 
+        if (null || lock || undefined) {
+            msg = "Go away";
+        } else {
+            msg = "welcome";
+        }
+        console.log(msg);
+    </script>
+</body>
+
+</html>
+
+
+<!-- 13  Fix the code to welcome the boss -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let message;
+        let lock;
+        //Dont change any code below this
+        if (lock && " " || undefined) {
+            message = "Go away";
+        } else {
+            message = "welcome";
+        }
+        console.log(message);
+    </script>
+</body>
+
+</html>
+
+<!-- ouput -->
+
+<!-- welcome -->
+
+<!-- 
+    14  Change the code to 
+    3
+    2
+    1 -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let i = 4;
+        while (i > 1) {
+            console.log(--i);
+        }
+    </script>
+</body>
+
+</html>
+
+
+<!-- ouput -->
+
+<!-- 3 
+    2
+    1 -->
+
+
+<!-- 15  Change the code to print 1 to 10 in 4 lines -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let num = 0
+        for (let i = 0; i < 10; i++) {
+            num++
+            console.log(num)
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- output -->
+<!-- 1
+2
+3
+4
+5
+6
+7
+8
+9
+10 -->
+
+<!-- 16  Change the code to print even numbers -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        for (let num = 2; num <= 20; num += 1) {
+            if (num % 2 == 0)
+                console.log(num)
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- output
+
+2   
+4
+6
+8
+10
+12
+14
+16
+18
+20 -->
+
+
+<!-- 16  Change the code to print all the gifts -->
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let gifts = ["teddy bear", "drone", "doll"];
+        for (let i = 0; i < 3; i++) {
+            console.log(`Wrapped ${gifts[i]} and added a bow!`);
+        }
+    </script>
+</body>
+
+</html>
+<!-- 
+output
+
+Wrapped teddy bear and added a bow!
+Wrapped drone and added a bow!
+Wrapped doll and added a bow! -->
+
+<!-- 17 Fix the code to disarm the bomb. -->
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let countdown = 100;
+        while (countdown > 0) {
+            countdown--;
+            if (countdown == 8) {
+                console.log("bomb is disarmed");
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+<!-- output -->
+
+<!-- bomb is disarmed -->
+
+
+<!-- 18  Whats the msg printed and why? -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        var lemein = "0";
+        var lemeout = 0; // lemeout is null since NUll>=0 is true it has no value
+        var msg = "";
+        if (lemein) {
+            msg += "hi"; //so it only checks this if since there is a string value.
+        }
+        if (lemeout) {
+            msg += 'Hello';
+        }
+        console.log(msg);
+    </script>
+</body>
+
+</html>
+
+
+<!-- output -->
+
+<!-- hi -->
